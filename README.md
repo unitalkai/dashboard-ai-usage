@@ -7,7 +7,9 @@ A complete French Next.js App Router dashboard, styled with an off-white sidebar
 Requires Node.js 20.9+ and npm.
 
 ```sh
-npm ci
+npm install
+# The complete lockfile is included in the delivered ZIP; GitHub upload rejected that file.
+# With the ZIP, use npm ci for the exact verified dependency versions.
 npm run dev
 # http://localhost:3000
 npm run check
@@ -46,4 +48,4 @@ CSV uses UTF-8 BOM, semicolon separators, explicit costs and formula-injection p
 
 Import this repository as a Next.js project, use `npm run build` and the detected Next.js output defaults. No environment variables or secrets are required for this demo. Request approval before creating a preview or production deployment. Real account integration would need server-side authentication, authorized account data, real licence semantics, error/loading states, and provider-backed costs; none are implied by this demo.
 
-No commit, push or deployment is performed by this implementation.
+Source publication was authorized on `main`. No deployment was performed. The GitHub file-write connection rejected the large `package-lock.json`; the delivered ZIP contains the exact verified lockfile. Add that file via a normal Git push before using `npm ci` in CI.
